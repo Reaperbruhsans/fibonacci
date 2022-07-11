@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int fibonacci (int length) { //For printing the n first numbers of the Fibonacci sequence.
+//For printing the n first numbers of the Fibonacci sequence.
+int fibonacci (int length) { 
    int* fibonacci = (int*)malloc(sizeof(int) * length);
 
    fibonacci[0] = 0;
@@ -13,6 +14,7 @@ int fibonacci (int length) { //For printing the n first numbers of the Fibonacci
 return 0;
 }
 
+//For running "fibonacci (int length)" and spitting out the reference to the array into "int* fib" variable.
 int main() {
    int* fib fibonacci(10);
 
