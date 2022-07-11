@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int fibonacci (int length) {
+int fibonacci (int length) { //For printing the n first numbers of the Fibonacci sequence.
    int* fibonacci = (int*)malloc(sizeof(int) * length);
 
    fibonacci[0] = 0;
